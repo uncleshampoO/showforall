@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Domain Searcher Auth",
+    "version": "1.0",
+    "description": "Перехват Cookie сессии для сервера Domain Searcher",
+    "permissions": [
+        "cookies",
+        "storage",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*.expireddomains.net/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "Domain Searcher",
+    "description": "Поиск свободных expired .com доменов с высоким BL и возрастом",
+    "version": "2.0",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://member.expireddomains.net/*",
+        "https://rdap.verisign.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://member.expireddomains.net/*"
+            ],
+            "js": [
+                "filters.js",
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}

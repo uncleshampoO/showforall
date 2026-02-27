@@ -1,0 +1,1416 @@
+20:05:42 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:07:17 | INFO    | main | 🔌 WebSocket connected
+20:07:17 | INFO    | main | 🎯 Search started: target=10 domains
+20:07:19 | INFO    | scraper | 🆕 Creating new browser context
+20:07:19 | INFO    | scraper | ✅ Browser started (headless=True)
+20:07:24 | INFO    | scraper | 🔑 Logging in as your_username...
+20:07:31 | ERROR   | scraper | ❌ Login failed — check credentials or 2FA
+20:07:31 | INFO    | scraper | 🔒 Browser closed
+20:24:16 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:24:46 | INFO    | main | 🔌 WebSocket connected
+20:24:46 | INFO    | main | 🎯 Search started: target=10 domains
+20:24:47 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+20:24:48 | INFO    | scraper | ✅ Browser started (headless=True)
+20:24:48 | INFO    | scraper | 🔑 Verifying saved session...
+20:24:54 | ERROR   | scraper | ❌ Session expired or invalid. Delete auth.json and run 'python auth_setup.py' again.
+20:24:54 | INFO    | scraper | 🔒 Browser closed
+20:27:17 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:27:51 | INFO    | main | 🔌 WebSocket connected
+20:27:51 | INFO    | main | 🎯 Search started: target=10 domains
+20:27:52 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+20:27:52 | INFO    | scraper | ✅ Browser started (headless=True)
+20:27:52 | INFO    | scraper | 🔑 Verifying saved session...
+20:27:56 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/
+20:27:56 | INFO    | scraper | 📄 Page Title: Expired Domains | Daily Updated Domain Lists for 677 TLDs
+20:27:56 | ERROR   | scraper | ❌ Session expired or invalid. Delete auth.json and run 'python auth_setup.py' again.
+20:27:56 | INFO    | scraper | 🔒 Browser closed
+20:28:27 | INFO    | main | 🔌 WebSocket connected
+20:28:27 | INFO    | main | 🎯 Search started: target=10 domains
+20:28:28 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+20:28:28 | INFO    | scraper | ✅ Browser started (headless=True)
+20:28:28 | INFO    | scraper | 🔑 Verifying saved session...
+20:28:33 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/
+20:28:33 | INFO    | scraper | 📄 Page Title: Expired Domains | Daily Updated Domain Lists for 677 TLDs
+20:28:33 | ERROR   | scraper | ❌ Session expired or invalid. Delete auth.json and run 'python auth_setup.py' again.
+20:28:33 | INFO    | scraper | 🔒 Browser closed
+20:29:28 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:30:32 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:30:56 | INFO    | main | 🔌 WebSocket connected
+20:30:56 | INFO    | main | 🎯 Search started: target=10 domains
+20:30:57 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+20:30:57 | INFO    | scraper | ✅ Browser started (headless=True)
+20:30:57 | INFO    | scraper | 🔑 Verifying saved session...
+20:31:00 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/
+20:31:00 | INFO    | scraper | 📄 Page Title: Expired Domains | Daily Updated Domain Lists for 677 TLDs
+20:31:00 | ERROR   | scraper | ❌ Session expired or invalid. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\session_fail.png. Delete auth.json and run 'python auth_setup.py' again.
+20:31:00 | INFO    | scraper | 🔒 Browser closed
+20:55:50 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:58:13 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+20:58:43 | INFO    | main | 🔌 WebSocket connected
+20:58:43 | INFO    | main | 🎯 Search started: target=10 domains
+20:58:44 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+20:58:44 | INFO    | scraper | ✅ Browser started (headless=True)
+20:58:44 | INFO    | scraper | 🔑 Verifying saved session...
+20:58:51 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/article/introduction-to-the-member-area-15109.html
+20:58:51 | INFO    | scraper | 📄 Page Title: Introduction to the member area » ExpiredDomains.net
+20:58:51 | INFO    | scraper | ✅ Session valid — already authenticated!
+20:58:51 | INFO    | scraper | 🔍 Navigating to Deleted .com section...
+20:58:59 | INFO    | scraper | 📄 Scraping page 2...
+20:59:02 | INFO    | scraper |    Found 0 rows on page 2
+20:59:02 | INFO    | scraper | 📄 Scraping page 3...
+20:59:06 | INFO    | scraper |    Found 0 rows on page 3
+20:59:06 | INFO    | scraper | 📄 Scraping page 4...
+20:59:09 | INFO    | scraper |    Found 0 rows on page 4
+20:59:09 | INFO    | scraper | 📄 Scraping page 5...
+20:59:14 | INFO    | scraper |    Found 0 rows on page 5
+20:59:14 | INFO    | scraper | 📄 Scraping page 6...
+20:59:18 | INFO    | scraper |    Found 0 rows on page 6
+20:59:18 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+20:59:18 | INFO    | scraper | 🔒 Browser closed
+21:00:49 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:05:23 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:06:12 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:07:05 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:07:29 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:07:53 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:08:36 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:09:15 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:09:55 | INFO    | main | 🔌 WebSocket connected
+21:09:55 | INFO    | main | 🎯 Search started: target=10 domains
+21:09:56 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:09:56 | INFO    | scraper | ✅ Browser started (headless=True)
+21:09:56 | INFO    | scraper | 🔑 Verifying saved session...
+21:10:03 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/
+21:10:03 | INFO    | scraper | 📄 Page Title: Expired Domains | Daily Updated Domain Lists for 677 TLDs
+21:10:03 | ERROR   | scraper | ❌ Session expired or invalid. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\session_fail.png. Delete auth.json and run 'python auth_setup.py' again.
+21:10:03 | INFO    | scraper | 🔒 Browser closed
+21:12:05 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:12:50 | INFO    | main | 🔌 WebSocket connected
+21:12:50 | INFO    | main | 🎯 Search started: target=10 domains
+21:12:51 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:12:51 | INFO    | scraper | ✅ Browser started (headless=True)
+21:12:51 | INFO    | scraper | Keys: Verifying saved session...
+21:12:52 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:12:55 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:12:55 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+21:12:55 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:12:55 | INFO    | scraper | 🔍 Navigating to Deleted .com section...
+21:12:58 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/deleted-com-domains/
+21:12:58 | INFO    | scraper | 📄 Scraping page 2...
+21:13:01 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:13:01 | INFO    | scraper |    Found 0 rows on page 2
+21:13:01 | INFO    | scraper | 📄 Scraping page 3...
+21:13:05 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:13:05 | INFO    | scraper |    Found 0 rows on page 3
+21:13:05 | INFO    | scraper | 📄 Scraping page 4...
+21:13:07 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:13:07 | INFO    | scraper |    Found 0 rows on page 4
+21:13:07 | INFO    | scraper | 📄 Scraping page 5...
+21:13:11 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:13:11 | INFO    | scraper |    Found 0 rows on page 5
+21:13:11 | INFO    | scraper | 📄 Scraping page 6...
+21:13:14 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:13:14 | INFO    | scraper |    Found 0 rows on page 6
+21:13:14 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:13:14 | INFO    | scraper | 🔒 Browser closed
+21:13:48 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:14:17 | INFO    | main | 🔌 WebSocket connected
+21:14:17 | INFO    | main | 🎯 Search started: target=10 domains
+21:14:18 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:14:18 | INFO    | scraper | ✅ Browser started (headless=True)
+21:14:18 | INFO    | scraper | Keys: Verifying saved session...
+21:14:19 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:14:23 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:14:23 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+21:14:23 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:14:23 | INFO    | scraper | 🔍 Navigating to Deleted .com section...
+21:14:26 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/deleted-com-domains/
+21:14:26 | INFO    | scraper | 📄 Scraping page 2...
+21:14:30 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:14:30 | INFO    | scraper |    Found 0 rows on page 2
+21:14:30 | INFO    | scraper | 📄 Scraping page 3...
+21:14:33 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:14:33 | INFO    | scraper |    Found 0 rows on page 3
+21:14:33 | INFO    | scraper | 📄 Scraping page 4...
+21:14:37 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:14:37 | INFO    | scraper |    Found 0 rows on page 4
+21:14:37 | INFO    | scraper | 📄 Scraping page 5...
+21:14:41 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:14:41 | INFO    | scraper |    Found 0 rows on page 5
+21:14:41 | INFO    | scraper | 📄 Scraping page 6...
+21:14:44 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:14:44 | INFO    | scraper |    Found 0 rows on page 6
+21:14:44 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:14:44 | INFO    | scraper | 🔒 Browser closed
+21:21:29 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:21:58 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:31:08 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:31:30 | INFO    | main | 🔌 WebSocket connected
+21:31:30 | INFO    | main | 🎯 Search started: target=10 domains
+21:31:52 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:31:53 | INFO    | scraper | ✅ Browser started (headless=True)
+21:31:53 | INFO    | scraper | Keys: Verifying saved session...
+21:31:57 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/login/
+21:32:00 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/login/
+21:32:00 | INFO    | scraper | 📄 Page Title: Login
+21:32:00 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:32:00 | INFO    | scraper | 🔍 Navigating to Deleted .com section...
+21:32:03 | INFO    | scraper | 🚀 Submitting filters...
+21:32:07 | INFO    | scraper | 📍 Final search URL after filters: https://www.expireddomains.net/login/?signup=1
+21:32:07 | INFO    | scraper | 📄 Scraping page 2...
+21:32:11 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:32:11 | INFO    | scraper |    Found 0 rows on page 2
+21:32:11 | INFO    | scraper | 📄 Scraping page 3...
+21:32:14 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:32:14 | INFO    | scraper |    Found 0 rows on page 3
+21:32:14 | INFO    | scraper | 📄 Scraping page 4...
+21:32:17 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:32:17 | INFO    | scraper |    Found 0 rows on page 4
+21:32:17 | INFO    | scraper | 📄 Scraping page 5...
+21:32:20 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:32:20 | INFO    | scraper |    Found 0 rows on page 5
+21:32:20 | INFO    | scraper | 📄 Scraping page 6...
+21:32:24 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:32:24 | INFO    | scraper |    Found 0 rows on page 6
+21:32:24 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:32:24 | INFO    | scraper | 🔒 Browser closed
+21:38:15 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:38:29 | INFO    | main | 🔌 WebSocket connected
+21:38:29 | INFO    | main | 🎯 Search started: target=10 domains
+21:38:30 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:38:31 | INFO    | scraper | ✅ Browser started (headless=True)
+21:38:31 | INFO    | scraper | Keys: Verifying saved session...
+21:38:32 | INFO    | scraper | 📍 Verification page loaded: https://www.expireddomains.net/login/
+21:38:35 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/login/
+21:38:35 | INFO    | scraper | 📄 Page Title: Login
+21:38:35 | WARNING | scraper | 📍 Redirected to login page. Session is likely invalid.
+21:38:35 | ERROR   | scraper | ❌ Session expired or invalid. Current URL: https://www.expireddomains.net/login/. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\session_fail.png. Delete auth.json and run 'python auth_setup.py' again.
+21:38:35 | INFO    | scraper | 🔒 Browser closed
+21:46:46 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:50:29 | INFO    | main | 🔌 WebSocket connected
+21:50:29 | INFO    | main | 🎯 Search started: target=10 domains
+21:50:30 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:50:30 | INFO    | scraper | ✅ Browser started (headless=True)
+21:50:30 | INFO    | scraper | Keys: Verifying saved session...
+21:50:35 | INFO    | scraper | 📍 Warmed up on www: https://member.expireddomains.net/
+21:50:36 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+21:50:39 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:50:39 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+21:50:39 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:50:40 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+21:50:42 | INFO    | scraper | 🚀 Submitting filters...
+21:51:12 | WARNING | scraper | ⚠️ Filter/sort step had issues: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+. Continuing...
+21:51:12 | INFO    | scraper | 📄 Scraping page 2...
+21:51:15 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:51:15 | INFO    | scraper |    Found 0 rows on page 2
+21:51:15 | INFO    | scraper | 📄 Scraping page 3...
+21:51:18 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:51:18 | INFO    | scraper |    Found 0 rows on page 3
+21:51:18 | INFO    | scraper | 📄 Scraping page 4...
+21:51:21 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:51:21 | INFO    | scraper |    Found 0 rows on page 4
+21:51:21 | INFO    | scraper | 📄 Scraping page 5...
+21:51:25 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:51:25 | INFO    | scraper |    Found 0 rows on page 5
+21:51:25 | INFO    | scraper | 📄 Scraping page 6...
+21:51:28 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:51:28 | INFO    | scraper |    Found 0 rows on page 6
+21:51:28 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:51:28 | INFO    | scraper | 🔒 Browser closed
+21:57:16 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:57:21 | INFO    | main | 🔌 WebSocket connected
+21:57:21 | INFO    | main | 🎯 Search started: target=10 domains
+21:57:22 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:57:22 | INFO    | scraper | ✅ Browser started (headless=True)
+21:57:22 | INFO    | scraper | Keys: Verifying saved session...
+21:57:26 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+21:57:27 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+21:57:30 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:57:30 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+21:57:30 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:57:31 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+21:57:35 | INFO    | scraper | 🔘 Clicking 'Show Filter'...
+21:57:36 | INFO    | scraper | 📅 Setting age filter in dropdown...
+21:57:36 | INFO    | scraper | 🚀 Submitting filters...
+21:57:46 | INFO    | scraper | 📊 Sorted by BL (descending)
+21:57:46 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/domains/expiredcom/?o=bl&r=a&fwhoisage=2010#listing
+21:57:46 | INFO    | scraper | 📄 Scraping page 2...
+21:57:49 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:57:50 | INFO    | scraper |    Found 0 rows on page 2
+21:57:50 | INFO    | scraper | 📄 Scraping page 3...
+21:57:53 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:57:53 | INFO    | scraper |    Found 0 rows on page 3
+21:57:53 | INFO    | scraper | 📄 Scraping page 4...
+21:57:57 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:57:57 | INFO    | scraper |    Found 0 rows on page 4
+21:57:57 | INFO    | scraper | 📄 Scraping page 5...
+21:58:00 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:58:00 | INFO    | scraper |    Found 0 rows on page 5
+21:58:00 | INFO    | scraper | 📄 Scraping page 6...
+21:58:04 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:58:04 | INFO    | scraper |    Found 0 rows on page 6
+21:58:04 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:58:04 | INFO    | scraper | 🔒 Browser closed
+21:58:32 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+21:58:39 | INFO    | main | 🔌 WebSocket connected
+21:58:39 | INFO    | main | 🎯 Search started: target=10 domains
+21:58:40 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+21:58:40 | INFO    | scraper | ✅ Browser started (headless=True)
+21:58:40 | INFO    | scraper | Keys: Verifying saved session...
+21:58:41 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+21:58:42 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+21:58:45 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+21:58:45 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+21:58:45 | INFO    | scraper | ✅ Session valid — already authenticated!
+21:58:46 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+21:58:49 | INFO    | scraper | 🔘 Clicking 'Show Filter'...
+21:58:51 | INFO    | scraper | 📅 Setting age filter in dropdown...
+21:58:51 | INFO    | scraper | 🚀 Submitting filters...
+21:58:59 | INFO    | scraper | 📊 Sorted by BL (descending)
+21:58:59 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/domains/expiredcom/?o=bl&r=a&fwhoisage=2010#listing
+21:58:59 | INFO    | scraper | 📄 Scraping page 2...
+21:59:04 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+21:59:04 | INFO    | scraper |    Found 0 rows on page 2
+21:59:04 | INFO    | scraper | 📄 Scraping page 3...
+21:59:07 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+21:59:07 | INFO    | scraper |    Found 0 rows on page 3
+21:59:07 | INFO    | scraper | 📄 Scraping page 4...
+21:59:10 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+21:59:10 | INFO    | scraper |    Found 0 rows on page 4
+21:59:10 | INFO    | scraper | 📄 Scraping page 5...
+21:59:14 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+21:59:14 | INFO    | scraper |    Found 0 rows on page 5
+21:59:14 | INFO    | scraper | 📄 Scraping page 6...
+21:59:19 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+21:59:19 | INFO    | scraper |    Found 0 rows on page 6
+21:59:19 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+21:59:19 | INFO    | scraper | 🔒 Browser closed
+22:03:11 | INFO    | main | 🔌 WebSocket connected
+22:03:11 | INFO    | main | 🎯 Search started: target=10 domains
+22:03:12 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+22:03:12 | INFO    | scraper | ✅ Browser started (headless=True)
+22:03:12 | INFO    | scraper | Keys: Verifying saved session...
+22:03:13 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+22:03:14 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+22:03:17 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+22:03:17 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+22:03:17 | INFO    | scraper | ✅ Session valid — already authenticated!
+22:03:18 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+22:03:21 | INFO    | scraper | 🔘 Clicking 'Show Filter'...
+22:03:23 | INFO    | scraper | 📅 Setting age filter in dropdown...
+22:03:23 | INFO    | scraper | 🚀 Submitting filters...
+22:03:33 | INFO    | scraper | 📊 Sorted by BL (descending)
+22:03:33 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/domains/expiredcom/?o=bl&r=a&fwhoisage=2010#listing
+22:03:33 | INFO    | scraper | 📄 Scraping page 2...
+22:03:37 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+22:03:37 | INFO    | scraper |    Found 0 rows on page 2
+22:03:37 | INFO    | scraper | 📄 Scraping page 3...
+22:03:41 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+22:03:41 | INFO    | scraper |    Found 0 rows on page 3
+22:03:41 | INFO    | scraper | 📄 Scraping page 4...
+22:03:46 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+22:03:46 | INFO    | scraper |    Found 0 rows on page 4
+22:03:46 | INFO    | scraper | 📄 Scraping page 5...
+22:03:48 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+22:03:49 | INFO    | scraper |    Found 0 rows on page 5
+22:03:49 | INFO    | scraper | 📄 Scraping page 6...
+22:03:52 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+22:03:52 | INFO    | scraper |    Found 0 rows on page 6
+22:03:52 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+22:03:52 | INFO    | scraper | 🔒 Browser closed
+22:03:59 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+22:04:02 | INFO    | main | 🔌 WebSocket connected
+22:04:02 | INFO    | main | 🎯 Search started: target=10 domains
+22:04:03 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+22:04:04 | INFO    | scraper | ✅ Browser started (headless=True)
+22:04:04 | INFO    | scraper | Keys: Verifying saved session...
+22:04:05 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+22:04:05 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+22:04:08 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+22:04:08 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+22:04:08 | INFO    | scraper | ✅ Session valid — already authenticated!
+22:04:09 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+22:04:12 | INFO    | scraper | 🔘 Clicking 'Show Filter'...
+22:04:13 | INFO    | scraper | 📅 Setting age filter in dropdown...
+22:04:13 | INFO    | scraper | 🚀 Submitting filters...
+22:04:19 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/domains/expiredcom/?o=bl&r=d&fwhoisage=2010#listing
+22:04:19 | INFO    | scraper | 📄 Scraping page 2...
+22:04:29 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 2
+22:04:31 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+22:04:31 | INFO    | scraper |    Found 0 rows on page 2
+22:04:31 | INFO    | scraper | 📄 Scraping page 3...
+22:04:41 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 3
+22:04:43 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+22:04:43 | INFO    | scraper |    Found 0 rows on page 3
+22:04:43 | INFO    | scraper | 📄 Scraping page 4...
+22:04:53 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 4
+22:04:54 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+22:04:55 | INFO    | scraper |    Found 0 rows on page 4
+22:04:55 | INFO    | scraper | 📄 Scraping page 5...
+22:05:05 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 5
+22:05:07 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+22:05:07 | INFO    | scraper |    Found 0 rows on page 5
+22:05:07 | INFO    | scraper | 📄 Scraping page 6...
+22:05:17 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 6
+22:05:18 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+22:05:18 | INFO    | scraper |    Found 0 rows on page 6
+22:05:18 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+22:05:18 | INFO    | scraper | 🔒 Browser closed
+22:08:07 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+22:08:15 | INFO    | main | 🔌 WebSocket connected
+22:08:15 | INFO    | main | 🎯 Search started: target=10 domains
+22:08:16 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+22:08:16 | INFO    | scraper | ✅ Browser started (headless=True)
+22:08:16 | INFO    | scraper | Keys: Verifying saved session...
+22:08:17 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+22:08:18 | INFO    | scraper | 📍 Verification page loaded: https://member.expireddomains.net/
+22:08:21 | INFO    | scraper | 📍 Current URL: https://member.expireddomains.net/
+22:08:21 | INFO    | scraper | 📄 Page Title: Homepage » ExpiredDomains.net
+22:08:21 | INFO    | scraper | ✅ Session valid — already authenticated!
+22:08:22 | INFO    | scraper | 📍 Arrived at Deleted .com section: https://member.expireddomains.net/domains/expiredcom/
+22:08:26 | INFO    | scraper | 🔘 Clicking 'Show Filter'...
+22:08:28 | INFO    | scraper | 📅 Setting age filter in dropdown...
+22:08:28 | INFO    | scraper | 🚀 Submitting filters...
+22:08:34 | INFO    | scraper | 📍 Final search URL after filters: https://member.expireddomains.net/domains/expiredcom/?o=bl&r=d&fwhoisage=2010
+22:08:34 | INFO    | scraper | 📄 Scraping page 2...
+22:08:44 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 2
+22:08:46 | WARNING | scraper |    ⚠️ No rows found on page 2. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p2.png
+22:08:46 | INFO    | scraper |    Found 0 rows on page 2
+22:08:46 | INFO    | scraper | 📄 Scraping page 3...
+22:08:57 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 3
+22:08:59 | WARNING | scraper |    ⚠️ No rows found on page 3. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p3.png
+22:08:59 | INFO    | scraper |    Found 0 rows on page 3
+22:08:59 | INFO    | scraper | 📄 Scraping page 4...
+22:09:09 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 4
+22:09:10 | WARNING | scraper |    ⚠️ No rows found on page 4. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p4.png
+22:09:10 | INFO    | scraper |    Found 0 rows on page 4
+22:09:10 | INFO    | scraper | 📄 Scraping page 5...
+22:09:21 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 5
+22:09:23 | WARNING | scraper |    ⚠️ No rows found on page 5. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p5.png
+22:09:23 | INFO    | scraper |    Found 0 rows on page 5
+22:09:23 | INFO    | scraper | 📄 Scraping page 6...
+22:09:34 | WARNING | scraper |    🕒 Timeout waiting for table#listing on page 6
+22:09:36 | WARNING | scraper |    ⚠️ No rows found on page 6. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\search_fail_p6.png
+22:09:36 | INFO    | scraper |    Found 0 rows on page 6
+22:09:36 | INFO    | scraper | 🏁 Scraping complete. Found 0 candidates.
+22:09:36 | INFO    | scraper | 🔒 Browser closed
+22:12:28 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+22:12:41 | INFO    | main | 🔌 WebSocket connected
+22:12:41 | INFO    | main | 🎯 Search started: target=10 domains
+22:12:42 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+22:12:42 | INFO    | scraper | ✅ Browser started (headless=True)
+22:12:42 | INFO    | scraper | Keys: Verifying saved session...
+22:12:44 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+22:12:44 | INFO    | scraper | 📍 Verification page loaded: https://www.expireddomains.net/login/
+22:12:47 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/login/
+22:12:47 | INFO    | scraper | 📄 Page Title: Login
+22:12:47 | WARNING | scraper | 📍 Redirected to login page. Session is likely invalid.
+22:12:47 | ERROR   | scraper | ❌ Session expired or invalid. Current URL: https://www.expireddomains.net/login/. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\session_fail.png. Delete auth.json and run 'python auth_setup.py' again.
+22:12:47 | INFO    | scraper | 🔒 Browser closed
+22:15:09 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+22:15:13 | INFO    | main | 🔌 WebSocket connected
+22:15:13 | INFO    | main | 🎯 Search started: target=10 domains
+22:15:14 | INFO    | scraper | ♻️  Reusing saved session from auth.json
+22:15:15 | INFO    | scraper | ✅ Browser started (headless=True)
+22:15:15 | INFO    | scraper | Keys: Verifying saved session...
+22:15:16 | INFO    | scraper | 📍 Warmed up on www: https://www.expireddomains.net/
+22:15:16 | INFO    | scraper | 📍 Verification page loaded: https://www.expireddomains.net/login/
+22:15:20 | INFO    | scraper | 📍 Current URL: https://www.expireddomains.net/login/
+22:15:20 | INFO    | scraper | 📄 Page Title: Login
+22:15:20 | WARNING | scraper | 📍 Redirected to login page. Session is likely invalid.
+22:15:20 | ERROR   | scraper | ❌ Session expired or invalid. Current URL: https://www.expireddomains.net/login/. Screenshot saved to C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\session_fail.png. Delete auth.json and run 'python auth_setup.py' again.
+22:15:20 | INFO    | scraper | 🔒 Browser closed
+17:13:16 | INFO    | registrator | 📧 Created temp mail: z8ch7n244u@dollicons.com
+17:13:16 | INFO    | registrator | 🌐 Navigating to registration page...
+17:18:18 | INFO    | registrator | 📧 Created temp mail: udun4ze7e4@dollicons.com
+17:18:18 | INFO    | registrator | 🌐 Navigating to registration page...
+17:18:19 | INFO    | registrator | 🚀 Submitting registration form for auto_test_user...
+17:18:20 | INFO    | registrator | ✅ Registration form submitted successfully!
+17:18:20 | INFO    | registrator | ⏳ Waiting for activation email (token=eyJ0eXAiOi)...
+17:20:36 | INFO    | registrator | 📧 Created temp mail: 3i6wet4mjy@dollicons.com
+17:20:36 | INFO    | registrator | 🌐 Navigating to registration page...
+17:20:38 | INFO    | registrator | 🚀 Submitting registration form for vbbotmlmy...
+17:20:39 | ERROR   | registrator | ❌ Registration failed. Check page content for errors.
+17:21:04 | INFO    | registrator | 📧 Created temp mail: rraz6dnp6y@dollicons.com
+17:21:04 | INFO    | registrator | 🌐 Navigating to registration page...
+17:21:05 | INFO    | registrator | 🚀 Submitting registration form for vbbotfinal1...
+17:21:06 | ERROR   | registrator | ❌ Registration failed. Check page content for errors.
+17:26:17 | INFO    | registrator | 📧 Created temp mail: pzw1vmtwmu@dollicons.com
+17:26:17 | INFO    | registrator | 🌐 Navigating to registration page...
+17:26:18 | INFO    | registrator | 🚀 Submitting registration form for vbbot6384...
+17:26:20 | ERROR   | registrator | ❌ Registration failed: Unknown error
+17:31:56 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+17:32:02 | INFO    | main | 🔌 WebSocket connected
+17:32:02 | INFO    | main | 🎯 Search started: target=10 domains
+17:32:03 | ERROR   | main | 💥 Search error: name 'pw' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 87, in websocket_search
+    await scraper.start()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 99, in start
+    self._browser = await pw.chromium.launch(
+                          ^^
+NameError: name 'pw' is not defined. Did you mean: 'pow'?
+17:32:41 | INFO    | main | 🔌 WebSocket connected
+17:32:41 | INFO    | main | 🎯 Search started: target=10 domains
+17:32:42 | ERROR   | main | 💥 Search error: name 'pw' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 87, in websocket_search
+    await scraper.start()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 99, in start
+    self._browser = await self._pw.chromium.launch(
+                          ^^
+NameError: name 'pw' is not defined. Did you mean: 'pow'?
+17:32:54 | INFO    | main | 🔌 WebSocket connected
+17:32:54 | INFO    | main | 🎯 Search started: target=10 domains
+17:32:55 | ERROR   | main | 💥 Search error: name 'pw' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 87, in websocket_search
+    await scraper.start()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 99, in start
+    self._browser = await self._pw.chromium.launch(
+                          ^^
+NameError: name 'pw' is not defined. Did you mean: 'pow'?
+17:36:35 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+17:36:44 | INFO    | main | 🔌 WebSocket connected
+17:36:44 | INFO    | main | 🎯 Search started: target=10 domains
+17:36:44 | ERROR   | main | 💥 Search error: 
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 87, in websocket_search
+    await scraper.start()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 84, in start
+    self._pw = await async_playwright().start()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+17:46:08 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+17:47:22 | INFO    | main | 🔌 WebSocket connected
+17:47:22 | INFO    | main | 🎯 Search started: target=10 domains
+17:47:22 | ERROR   | main | 💥 Search error: 
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 105, in websocket_search
+    start_ok = await scraper.start()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 87, in start
+    self._pw = await async_playwright().start()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+17:48:09 | INFO    | main | 🔌 WebSocket connected
+17:48:09 | INFO    | main | 🎯 Search started: target=10 domains
+17:48:09 | ERROR   | main | 💥 Search error: 
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 105, in websocket_search
+    start_ok = await scraper.start()
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 87, in start
+    self._pw = await async_playwright().start()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+17:49:27 | INFO    | main | 🔌 WebSocket connected
+17:49:27 | INFO    | main | 🎯 Search started: target=10 domains
+17:49:27 | ERROR   | main | 💥 Search error: 
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 106, in websocket_search
+    await temp_scraper.start() # This will use a guest context
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 87, in start
+    self._pw = await async_playwright().start()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\.venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+17:57:17 | INFO    | main | 📦 Initializing database...
+17:57:17 | INFO    | main | ✅ Database initialized.
+17:57:17 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+17:57:18 | INFO    | main | 📦 Initializing database...
+17:57:18 | INFO    | main | ✅ Database initialized.
+17:57:18 | INFO    | main | 📦 Initializing database...
+17:57:18 | INFO    | main | ✅ Database initialized.
+17:57:23 | INFO    | main | 🔌 WebSocket connected
+17:57:23 | INFO    | main | 🎯 Search started: target=10 domains
+17:57:23 | ERROR   | main | ❌ Auto-registration failed: 
+17:57:23 | INFO    | scraper | 🔒 Browser closed
+17:57:23 | INFO    | scraper | 🔒 Browser closed
+17:58:21 | INFO    | main | 📦 Initializing database...
+17:58:21 | INFO    | main | ✅ Database initialized.
+17:58:22 | INFO    | main | 📦 Initializing database...
+17:58:22 | INFO    | main | ✅ Database initialized.
+17:58:58 | INFO    | main | 📦 Initializing database...
+17:58:58 | INFO    | main | ✅ Database initialized.
+17:58:58 | INFO    | main | 📦 Initializing database...
+17:58:58 | INFO    | main | ✅ Database initialized.
+17:58:58 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+17:59:12 | INFO    | main | 📦 Initializing database...
+17:59:12 | INFO    | main | ✅ Database initialized.
+17:59:12 | INFO    | main | 📦 Initializing database...
+17:59:12 | INFO    | main | ✅ Database initialized.
+17:59:12 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+17:59:58 | INFO    | main | 🔌 WebSocket connected
+17:59:58 | INFO    | main | 🎯 Search started: target=10 domains
+17:59:58 | ERROR   | main | ❌ Auto-registration failed: 
+17:59:58 | INFO    | scraper | 🔒 Browser closed
+17:59:58 | INFO    | scraper | 🔒 Browser closed
+18:02:53 | INFO    | main | 📦 Initializing database...
+18:02:53 | INFO    | main | ✅ Database initialized.
+18:02:53 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:02:55 | INFO    | main | 📦 Initializing database...
+18:02:55 | INFO    | main | ✅ Database initialized.
+18:02:55 | INFO    | main | 📦 Initializing database...
+18:02:55 | INFO    | main | ✅ Database initialized.
+18:02:55 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:14:51 | INFO    | main | 📦 Initializing database...
+18:14:51 | INFO    | main | ✅ Database initialized.
+18:14:51 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:14:52 | INFO    | main | 📦 Initializing database...
+18:14:52 | INFO    | main | ✅ Database initialized.
+18:14:52 | INFO    | main | 📦 Initializing database...
+18:14:52 | INFO    | main | ✅ Database initialized.
+18:14:52 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:15:06 | INFO    | main | 🔌 WebSocket connected
+18:15:06 | INFO    | main | 🎯 Search started: target=10 domains
+18:15:06 | ERROR   | main | ❌ Auto-registration failed: 
+18:15:06 | INFO    | scraper | 🔒 Browser closed
+18:15:06 | INFO    | scraper | 🔒 Browser closed
+18:17:57 | INFO    | main | 📦 Initializing database...
+18:17:57 | INFO    | main | ✅ Database initialized.
+18:17:57 | INFO    | main | 📦 Initializing database...
+18:17:57 | INFO    | main | ✅ Database initialized.
+18:17:57 | INFO    | main | 🔧 Lifespan: Current loop type: _WindowsSelectorEventLoop
+18:17:57 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:17:57 | INFO    | main | 🔌 WebSocket connected
+18:17:57 | INFO    | main | 🔌 WebSocket disconnected
+18:17:59 | INFO    | main | 🔌 WebSocket connected
+18:17:59 | INFO    | main | 🎯 Search started: target=10 domains
+18:17:59 | ERROR   | main | ❌ Auto-registration failed: 
+18:17:59 | INFO    | scraper | 🔒 Browser closed
+18:17:59 | INFO    | scraper | 🔒 Browser closed
+18:18:15 | INFO    | main | 📦 Initializing database...
+18:18:15 | INFO    | main | ✅ Database initialized.
+18:18:15 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:18:15 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:18:15 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:18:31 | INFO    | main | 🔌 WebSocket connected
+18:18:31 | INFO    | main | 🎯 Search started: target=10 domains
+18:18:32 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:18:33 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:18:34 | INFO    | scraper | ✅ Browser started for guest
+18:18:36 | INFO    | registrator | 📧 Created temp mail: qkc296wcy5@dollicons.com
+18:18:36 | INFO    | registrator | 🌐 Navigating to registration page...
+18:18:40 | INFO    | registrator | ✍️ Filling registration form (username=artemcjan)...
+18:18:40 | INFO    | registrator | 🚀 Submitting registration form...
+18:18:42 | ERROR   | registrator | ❌ Registration failed: Bot detection / Captcha triggered
+18:18:42 | ERROR   | main | ❌ Auto-registration failed: Ошибка при заполнении формы регистрации
+18:18:42 | INFO    | scraper | 🔒 Browser closed
+18:18:42 | INFO    | scraper | 🔒 Browser closed
+18:20:29 | INFO    | main | 🔌 WebSocket connected
+18:20:29 | INFO    | main | 🎯 Search started: target=10 domains
+18:20:30 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:20:30 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:20:30 | INFO    | scraper | ✅ Browser started for guest
+18:20:32 | INFO    | registrator | 📧 Created temp mail: ylj9oa8b4r@dollicons.com
+18:20:32 | INFO    | registrator | 🌐 Navigating to registration page...
+18:20:33 | INFO    | registrator | ✍️ Filling registration form (username=sergey2ojz)...
+18:20:33 | INFO    | registrator | 🚀 Submitting registration form...
+18:20:34 | ERROR   | registrator | ❌ Registration failed: Bot detection / Captcha triggered
+18:20:34 | ERROR   | main | ❌ Auto-registration failed: Ошибка при заполнении формы регистрации
+18:20:34 | INFO    | scraper | 🔒 Browser closed
+18:20:34 | INFO    | scraper | 🔒 Browser closed
+18:23:35 | INFO    | main | 📦 Initializing database...
+18:23:35 | INFO    | main | ✅ Database initialized.
+18:23:35 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:23:35 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:23:35 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:23:41 | INFO    | main | 🔌 WebSocket connected
+18:23:41 | INFO    | main | 🎯 Search started: target=10 domains
+18:23:42 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:23:42 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:23:43 | INFO    | scraper | ✅ Browser started for guest
+18:23:44 | INFO    | registrator | 📧 Created temp mail: fvf5kpjgu6@dollicons.com
+18:23:44 | INFO    | registrator | 🌐 Navigating to registration page...
+18:23:45 | INFO    | registrator | ✍️ Filling registration form (username=ivanmkpf)...
+18:23:45 | INFO    | registrator | 🚀 Submitting registration form...
+18:23:46 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:23:46 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:23:46 | INFO    | registrator | ⏳ Waiting for activation email (token=eyJ0eXAiOi)...
+18:25:50 | ERROR   | registrator | ❌ Activation email not received within timeout.
+18:25:50 | ERROR   | main | ❌ Auto-registration failed: Письмо с подтверждением не пришло (Timeout)
+18:25:50 | INFO    | scraper | 🔒 Browser closed
+18:25:50 | INFO    | scraper | 🔒 Browser closed
+18:26:08 | INFO    | main | 🔌 WebSocket connected
+18:26:08 | INFO    | main | 🎯 Search started: target=10 domains
+18:26:09 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:26:09 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:26:10 | INFO    | scraper | ✅ Browser started for guest
+18:26:11 | INFO    | registrator | 📧 Created temp mail: 2yqy96rfxw@dollicons.com
+18:26:11 | INFO    | registrator | 🌐 Navigating to registration page...
+18:26:12 | INFO    | registrator | ✍️ Filling registration form (username=alexjtmq)...
+18:26:12 | INFO    | registrator | 🚀 Submitting registration form...
+18:26:13 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:26:13 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:26:13 | INFO    | registrator | ⏳ Waiting for activation email (token=eyJ0eXAiOi)...
+18:28:18 | ERROR   | registrator | ❌ Activation email not received within timeout.
+18:28:18 | ERROR   | main | ❌ Auto-registration failed: Письмо с подтверждением не пришло (Timeout)
+18:28:18 | INFO    | scraper | 🔒 Browser closed
+18:28:18 | INFO    | scraper | 🔒 Browser closed
+18:28:29 | INFO    | main | 📦 Initializing database...
+18:28:29 | INFO    | main | ✅ Database initialized.
+18:28:29 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:28:29 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:28:29 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:28:37 | INFO    | main | 🔌 WebSocket connected
+18:28:37 | INFO    | main | 🎯 Search started: target=10 domains
+18:28:38 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:28:38 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:28:38 | INFO    | scraper | ✅ Browser started for guest
+18:28:41 | INFO    | registrator | 📧 Created temp mail: 36em6ko598@dollicons.com
+18:28:41 | INFO    | registrator | 🌐 Navigating to registration page...
+18:28:42 | INFO    | registrator | ✍️ Filling registration form (username=alexh7nt)...
+18:28:42 | INFO    | registrator | 🚀 Submitting registration form...
+18:28:43 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:28:43 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:28:43 | INFO    | registrator | ⏳ Waiting for activation email (token=eyJ0eXAiOi)...
+18:28:43 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:28:49 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:28:54 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:28:59 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:04 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:09 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:14 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:20 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:25 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:30 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:35 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:40 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:45 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:51 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:29:56 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:01 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:07 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:12 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:17 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:22 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:28 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:33 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:39 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:44 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:49 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:54 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:30:59 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:31:05 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:31:12 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:31:17 | ERROR   | registrator | ❌ Activation email not received within timeout.
+18:31:17 | ERROR   | main | ❌ Auto-registration failed: Письмо с подтверждением не пришло (Timeout)
+18:31:17 | ERROR   | main | 💥 Search error (Exception): Browser.close: Connection closed while reading from the driver
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 161, in websocket_search
+    await temp_scraper.close()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 472, in close
+    await self._browser.close()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\async_api\_generated.py", line 14176, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 192, in close
+    raise e
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 189, in close
+    await self._channel.send("close", {"reason": reason})
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver
+18:31:56 | INFO    | main | 📦 Initializing database...
+18:31:56 | INFO    | main | ✅ Database initialized.
+18:31:56 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:31:56 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:31:56 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:32:01 | INFO    | main | 🔌 WebSocket connected
+18:32:01 | INFO    | main | 🎯 Search started: target=10 domains
+18:32:02 | WARNING | scraper | ⚠️ No active accounts in pool. Starting in guest mode.
+18:32:02 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+18:32:03 | INFO    | scraper | ✅ Browser started for guest
+18:32:03 | INFO    | registrator | 🎲 Selected Mail.tm domain: dollicons.com
+18:32:04 | INFO    | registrator | 📧 Created temp mail: jgo3tnmduc@dollicons.com
+18:32:04 | INFO    | registrator | 🌐 Navigating to registration page...
+18:32:05 | INFO    | registrator | ✍️ Filling registration form (username=artemt4dt)...
+18:32:05 | INFO    | registrator | 🚀 Submitting registration form...
+18:32:06 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:32:06 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:32:06 | INFO    | registrator | ⏳ Waiting for activation email (token=eyJ0eXAiOi)...
+18:32:07 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:12 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:17 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:22 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:27 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:33 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:38 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:43 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:48 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:53 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:32:58 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:04 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:09 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:14 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:20 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:25 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:30 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:35 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:40 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:46 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:51 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:33:56 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:01 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:07 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:12 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:17 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:22 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:27 | INFO    | registrator | 📬 Mailbox poll: found 0 messages.
+18:34:28 | ERROR   | main | 💥 Search error (Exception): Browser.close: Connection closed while reading from the driver
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\main.py", line 161, in websocket_search
+    return
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\scraper.py", line 472, in close
+    await self._browser.close()
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\async_api\_generated.py", line 14176, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 192, in close
+    raise e
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_browser.py", line 189, in close
+    await self._channel.send("close", {"reason": reason})
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver
+18:34:34 | INFO    | main | 📦 Initializing database...
+18:34:34 | INFO    | main | ✅ Database initialized.
+18:34:34 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:34:34 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:34:34 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:34:38 | INFO    | main | 🔌 WebSocket connected
+18:34:38 | INFO    | main | 🎯 Search started: target=10 domains
+18:34:38 | ERROR   | main | ❌ Auto-registration failed: 'DomainScraper' object has no attribute '_init_browser'
+18:34:38 | INFO    | scraper | 🔒 Browser closed
+18:34:38 | INFO    | scraper | 🔒 Browser closed
+18:38:08 | INFO    | main | 📦 Initializing database...
+18:38:08 | INFO    | main | ✅ Database initialized.
+18:38:08 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+18:38:08 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+18:38:08 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+18:38:13 | INFO    | main | 🔌 WebSocket connected
+18:38:13 | INFO    | main | 🎯 Search started: target=10 domains
+18:38:13 | ERROR   | main | ❌ Auto-reg CRITICAL: 'DomainScraper' object has no attribute '_init_browser'
+18:38:13 | INFO    | scraper | 🔒 Browser closed
+18:40:14 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:40:15 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:40:15 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:40:16 | ERROR   | verify_reg | 💥 Fatal test error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 58, in <module>
+    asyncio.run(test_registration_flow())
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 23, in test_registration_flow
+    await reg.create_temp_mail(provider="1secmail")
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\registrator.py", line 60, in create_temp_mail
+    domains = resp.json()
+              ^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+18:41:02 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:41:02 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:41:03 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:41:03 | ERROR   | verify_reg | 💥 Fatal test error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 58, in <module>
+    asyncio.run(test_registration_flow())
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 23, in test_registration_flow
+    await reg.create_temp_mail(provider="1secmail")
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\registrator.py", line 60, in create_temp_mail
+    domains = resp.json()
+              ^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+18:41:33 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:41:33 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:41:34 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:41:34 | ERROR   | verify_reg | 💥 Fatal test error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 58, in <module>
+    asyncio.run(test_registration_flow())
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 23, in test_registration_flow
+    await reg.create_temp_mail(provider="1secmail")
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\registrator.py", line 60, in create_temp_mail
+    domains = resp.json()
+              ^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+18:42:23 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:42:24 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:42:24 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:42:24 | ERROR   | verify_reg | 💥 Fatal test error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 58, in <module>
+    asyncio.run(test_registration_flow())
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\verify_reg.py", line 23, in test_registration_flow
+    await reg.create_temp_mail(provider="1secmail")
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\core\registrator.py", line 60, in create_temp_mail
+    domains = resp.json()
+              ^^^^^^^^^^^
+  File "C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\.venv\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+18:43:48 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:43:49 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:43:50 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:43:50 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+18:43:50 | INFO    | registrator | 📧 [1secmail] SUCCESS: dkc4rjchmg@1secmail.net
+18:43:50 | INFO    | verify_reg | 📝 Step 2: Registering testuser7qxm4...
+18:43:50 | INFO    | registrator | 🌐 Navigating to registration page...
+18:43:54 | INFO    | registrator | ✍️ Filling registration form (username=testuser7qxm4, email=dkc4rjchmg@1secmail.net)...
+18:43:54 | INFO    | registrator | 🚀 Submitting registration form...
+18:43:55 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:43:55 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:43:55 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+18:43:55 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+18:43:55 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:01 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:06 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:11 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:16 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:22 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:27 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:32 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:38 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:46 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:44:47 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:44:47 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:44:47 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+18:44:47 | INFO    | registrator | 📧 [1secmail] SUCCESS: nonglvx2cp@1secmail.net
+18:44:47 | INFO    | verify_reg | 📝 Step 2: Registering testuser1micb...
+18:44:48 | INFO    | registrator | 🌐 Navigating to registration page...
+18:44:49 | INFO    | registrator | ✍️ Filling registration form (username=testuser1micb, email=nonglvx2cp@1secmail.net)...
+18:44:49 | INFO    | registrator | 🚀 Submitting registration form...
+18:44:50 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:44:50 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:44:50 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+18:44:50 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+18:44:50 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:44:56 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:01 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:06 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:11 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:16 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:21 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:27 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:32 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:37 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:42 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:48 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:53 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:45:58 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:46:03 | WARNING | registrator | 📬 [1secmail] API returned 403, skipping poll cycle
+18:46:13 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:46:14 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:46:14 | ERROR   | verify_reg | ❌ Failed to create email
+18:47:35 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:47:36 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:47:37 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:47:37 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+18:47:37 | INFO    | registrator | 📧 [1secmail] SUCCESS: 0cygwg7ynl@1secmail.net
+18:47:37 | INFO    | verify_reg | 📝 Step 2: Registering testuserryl5d...
+18:47:37 | INFO    | registrator | 🌐 Navigating to registration page...
+18:47:38 | INFO    | registrator | ✍️ Filling registration form (username=testuserryl5d, email=0cygwg7ynl@1secmail.net)...
+18:47:38 | INFO    | registrator | 🚀 Submitting registration form...
+18:47:39 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:47:39 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:47:39 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+18:47:39 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+18:47:40 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+18:47:49 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+18:47:58 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+18:52:06 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+18:52:06 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+18:52:07 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+18:52:07 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+18:52:07 | INFO    | registrator | 📧 [1secmail] SUCCESS: aoo7t5g2pn@1secmail.net
+18:52:07 | INFO    | verify_reg | 📝 Step 2: Registering testuser0mlls...
+18:52:07 | INFO    | registrator | 🌐 Navigating to registration page...
+18:52:08 | INFO    | registrator | ✍️ Filling registration form (username=testuser0mlls, email=aoo7t5g2pn@1secmail.net)...
+18:52:09 | INFO    | registrator | 🚀 Submitting registration form...
+18:52:09 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+18:52:09 | INFO    | registrator | ✅ Registration form submitted successfully!
+18:52:09 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+18:52:09 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+18:52:10 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+18:52:19 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:22:37 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+19:22:39 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+19:22:40 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+19:22:40 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+19:22:40 | INFO    | registrator | 📧 [1secmail] SUCCESS: crs998lr0q@1secmail.org
+19:22:40 | INFO    | verify_reg | 📝 Step 2: Registering testuseribd2y...
+19:22:40 | INFO    | registrator | 🌐 Navigating to registration page...
+19:22:44 | INFO    | registrator | ✍️ Filling registration form (username=testuseribd2y, email=crs998lr0q@1secmail.org)...
+19:22:45 | INFO    | registrator | 🚀 Submitting registration form...
+19:22:45 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+19:22:45 | INFO    | registrator | ✅ Registration form submitted successfully!
+19:22:45 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+19:22:45 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+19:22:46 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:22:47 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:23:05 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:23:05 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:23:23 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:23:23 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:23:41 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:23:41 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:23:59 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:23:59 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:24:17 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:24:18 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:24:36 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:24:36 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=crs998lr0q&domain=1secmail.org
+19:24:45 | INFO    | verify_reg | 🧪 Starting standalone registration test...
+19:24:47 | INFO    | verify_reg | 📧 Step 1: Creating 1secmail...
+19:24:48 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+19:24:48 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+19:24:48 | INFO    | registrator | 📧 [1secmail] SUCCESS: pdkcohtla8@1secmail.com
+19:24:48 | INFO    | verify_reg | 📝 Step 2: Registering testuserp2r22...
+19:24:49 | INFO    | registrator | 🌐 Navigating to registration page...
+19:24:50 | INFO    | registrator | ✍️ Filling registration form (username=testuserp2r22, email=pdkcohtla8@1secmail.com)...
+19:24:50 | INFO    | registrator | 🚀 Submitting registration form...
+19:24:51 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+19:24:51 | INFO    | registrator | ✅ Registration form submitted successfully!
+19:24:51 | INFO    | verify_reg | ⏳ Step 3: Waiting for activation email (max 120s)...
+19:24:51 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+19:24:52 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:24:52 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=pdkcohtla8&domain=1secmail.com
+19:25:10 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+19:25:11 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=pdkcohtla8&domain=1secmail.com
+11:32:23 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+11:32:24 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+11:32:24 | INFO    | registrator | 📧 [1secmail] SUCCESS: mxhvsofa7j@1secmail.net
+11:32:24 | INFO    | registrator | 🌐 Navigating to registration page...
+11:32:25 | INFO    | registrator | ✍️ Filling registration form (username=sergeyrjut, email=mxhvsofa7j@1secmail.net)...
+11:32:25 | INFO    | registrator | 🚀 Submitting registration form...
+11:32:26 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+11:32:26 | INFO    | registrator | ✅ Registration form submitted successfully!
+11:32:26 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+11:32:27 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:32:27 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:32:47 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:32:47 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:33:04 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:33:05 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:33:23 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:33:23 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:33:41 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:33:41 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:33:59 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:33:59 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:34:17 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:34:17 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:34:35 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:34:36 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=mxhvsofa7j&domain=1secmail.net
+11:35:05 | INFO    | main | 📦 Initializing database...
+11:35:05 | INFO    | main | ✅ Database initialized.
+11:35:06 | INFO    | main | 🚀 Starting Domain Searcher on 0.0.0.0:8000
+11:35:06 | INFO    | main | 🔧 Lifespan: Current loop type: ProactorEventLoop
+11:35:06 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+11:35:47 | INFO    | main | 🔌 WebSocket connected
+11:35:47 | INFO    | main | 🎯 Search started: target=10 domains
+11:38:04 | INFO    | mass_register | 🚀 Starting mass registration of 3 accounts via 1secmail
+11:38:04 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+11:38:04 | INFO    | mass_register | --- 🔄 Task 1 / 3 ---
+11:38:04 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+11:38:04 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+11:38:04 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+11:38:04 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+11:38:06 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+11:38:06 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+11:38:06 | INFO    | registrator | 📧 [1secmail] SUCCESS: 3ezcr3mb57@1secmail.org
+11:38:06 | INFO    | mass_register | 📧 Temporary Email: 3ezcr3mb57@1secmail.org
+11:38:06 | INFO    | mass_register | 🔑 Password: Secur3Pass!
+11:38:06 | INFO    | registrator | 🌐 Navigating to registration page...
+11:38:10 | INFO    | registrator | ✍️ Filling registration form (username=3ezcr3mb57, email=3ezcr3mb57@1secmail.org)...
+11:38:10 | INFO    | registrator | 🚀 Submitting registration form...
+11:38:11 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+11:38:11 | INFO    | registrator | ✅ Registration form submitted successfully!
+11:38:11 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+11:38:12 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:38:12 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=3ezcr3mb57&domain=1secmail.org
+11:38:30 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:38:30 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=3ezcr3mb57&domain=1secmail.org
+11:39:53 | INFO    | mass_register | 🚀 Starting mass registration of 1 accounts via mail.tm
+11:39:53 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+11:39:53 | INFO    | mass_register | --- 🔄 Task 1 / 1 ---
+11:39:53 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+11:39:53 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+11:39:53 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+11:39:53 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+11:39:54 | INFO    | registrator | 📧 Attempting Mail.tm account creation...
+11:39:55 | WARNING | registrator | ⚠️ Mail.tm failed, falling back to 1secmail: 'list' object has no attribute 'get'
+11:39:55 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+11:39:55 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+11:39:55 | INFO    | registrator | 📧 [1secmail] SUCCESS: 7vtpqx5lg2@1secmail.com
+11:39:55 | INFO    | mass_register | 📧 Temporary Email: 7vtpqx5lg2@1secmail.com
+11:39:55 | INFO    | mass_register | 🔑 Password: Secur3Pass!
+11:39:55 | INFO    | registrator | 🌐 Navigating to registration page...
+11:39:56 | INFO    | registrator | ✍️ Filling registration form (username=7vtpqx5lg2, email=7vtpqx5lg2@1secmail.com)...
+11:39:57 | INFO    | registrator | 🚀 Submitting registration form...
+11:39:57 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+11:39:57 | INFO    | registrator | ✅ Registration form submitted successfully!
+11:39:57 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+11:39:58 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:39:58 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=7vtpqx5lg2&domain=1secmail.com
+11:40:16 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:40:16 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=7vtpqx5lg2&domain=1secmail.com
+11:44:13 | INFO    | mass_register | 🚀 Starting mass registration of 1 accounts via mail.tm
+11:44:13 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+11:44:14 | INFO    | mass_register | --- 🔄 Task 1 / 1 ---
+11:44:14 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+11:44:14 | INFO    | proxy_manager | 📡 Checking proxy: # http://username:password@ip:port
+11:44:14 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+11:44:14 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+11:44:15 | INFO    | registrator | 📧 Attempting Mail.tm account creation...
+11:44:15 | WARNING | registrator | ⚠️ Mail.tm failed, falling back to 1secmail: 'list' object has no attribute 'get'
+11:44:15 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+11:44:15 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+11:44:15 | INFO    | registrator | 📧 [1secmail] SUCCESS: nn63aajxc8@1secmail.com
+11:44:15 | INFO    | mass_register | 📧 Temporary Email: nn63aajxc8@1secmail.com
+11:44:15 | INFO    | mass_register | 🔑 Password: Secur3Pass!
+11:44:16 | INFO    | registrator | 🌐 Navigating to registration page...
+11:44:17 | INFO    | registrator | ✍️ Filling registration form (username=nn63aajxc8, email=nn63aajxc8@1secmail.com)...
+11:44:17 | INFO    | registrator | 🚀 Submitting registration form...
+11:44:17 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+11:44:17 | INFO    | registrator | ✅ Registration form submitted successfully!
+11:44:17 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+11:44:18 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:44:18 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=nn63aajxc8&domain=1secmail.com
+11:44:36 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:44:36 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=nn63aajxc8&domain=1secmail.com
+11:44:54 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:44:54 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=nn63aajxc8&domain=1secmail.com
+11:45:12 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:45:12 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=nn63aajxc8&domain=1secmail.com
+11:45:21 | INFO    | mass_register | 🚀 Starting mass registration of 1 accounts via mail.tm
+11:45:21 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+11:45:22 | INFO    | mass_register | --- 🔄 Task 1 / 1 ---
+11:45:22 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+11:45:22 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+11:45:22 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+11:45:22 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+11:45:23 | INFO    | registrator | 📧 Attempting Mail.tm account creation...
+11:45:23 | WARNING | registrator | ⚠️ Mail.tm failed, falling back to 1secmail: cannot access local variable 'resp' where it is not associated with a value
+11:45:23 | INFO    | registrator | 📧 Attempting 1secmail account creation...
+11:45:23 | WARNING | registrator | ⚠️ 1secmail API returned 403, using default domains
+11:45:23 | INFO    | registrator | 📧 [1secmail] SUCCESS: 9uh4sp8oh8@1secmail.net
+11:45:23 | INFO    | mass_register | 📧 Temporary Email: 9uh4sp8oh8@1secmail.net
+11:45:23 | INFO    | mass_register | 🔑 Password: Secur3Pass!
+11:45:23 | INFO    | registrator | 🌐 Navigating to registration page...
+11:45:24 | INFO    | registrator | ✍️ Filling registration form (username=9uh4sp8oh8, email=9uh4sp8oh8@1secmail.net)...
+11:45:25 | INFO    | registrator | 🚀 Submitting registration form...
+11:45:25 | INFO    | registrator | 📍 Registration submission finished. Final URL: https://www.expireddomains.net/message/success/user.message.registersuccess
+11:45:25 | INFO    | registrator | ✅ Registration form submitted successfully!
+11:45:25 | INFO    | registrator | ⏳ Waiting for activation email via 1secmail...
+11:45:26 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:45:26 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=9uh4sp8oh8&domain=1secmail.net
+11:45:44 | WARNING | registrator | 📬 [1secmail] API 403 Forbidden. Falling back to BROWSER UI check...
+11:45:44 | INFO    | registrator | 🌐 Checking browser inbox: https://www.1secmail.cc/en/?login=9uh4sp8oh8&domain=1secmail.net
+11:50:58 | INFO    | mass_register | 🚀 Starting mass registration of 1 accounts via developermail
+11:50:58 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+11:50:59 | INFO    | mass_register | --- 🔄 Task 1 / 1 ---
+11:50:59 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+11:50:59 | INFO    | proxy_manager | 📡 Checking proxy: # http://username:password@ip:port
+11:50:59 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+11:50:59 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+11:50:59 | INFO    | registrator | 📧 Attempting DeveloperMail account creation...
+11:51:00 | ERROR   | registrator | ⚠️ DeveloperMail failed: [Errno 11001] getaddrinfo failed
+11:51:00 | ERROR   | mass_register | ❌ Error during registration: Failed to generate any temp email.
+11:51:00 | INFO    | mass_register | 🏁 Mass registration finished. Created 0 / 1 accounts.
+19:32:27 | INFO    | mass_register | 🚀 Starting mass registration of 1 accounts via developermail
+19:32:27 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+19:32:33 | INFO    | mass_register | --- 🔄 Task 1 / 1 ---
+19:32:33 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+19:32:33 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+19:32:33 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+19:32:33 | WARNING | mass_register | ⚠️ Proceeding without proxy.
+19:32:34 | INFO    | registrator | 📧 Attempting DeveloperMail account creation...
+19:32:49 | ERROR   | registrator | ⚠️ DeveloperMail failed: 
+19:32:49 | ERROR   | mass_register | ❌ Error during registration: Failed to generate any temp email.
+19:32:50 | INFO    | mass_register | 🏁 Mass registration finished. Created 0 / 1 accounts.
+20:03:22 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+20:03:22 | INFO    | proxy_manager | 📡 Checking proxy: # http://username:password@ip:port
+20:03:22 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+20:03:22 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+20:03:22 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+20:03:23 | INFO    | scraper | ✅ Browser started for vblookstrue
+20:03:23 | INFO    | scraper | 🕵️ Verifying session for vblookstrue...
+20:03:25 | WARNING | scraper | 🕒 Nav error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://member.expireddomains.net/
+Call log:
+  - navigating to "https://member.expireddomains.net/", waiting until "networkidle"
+
+20:03:25 | INFO    | scraper | 🔒 Browser closed
+20:05:37 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+20:05:37 | INFO    | proxy_manager | 📡 Checking proxy: # http://username:password@ip:port
+20:05:37 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+20:05:37 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+20:05:37 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+20:05:37 | INFO    | scraper | ✅ Browser started for vblookstrue
+20:05:37 | INFO    | scraper | 🕵️ Verifying session for vblookstrue...
+20:05:39 | INFO    | scraper | 🔑 Attempting auto-login for vblookstrue...
+20:06:10 | ERROR   | scraper | ❌ Login failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=\"username\"]")
+    - waiting for" https://member.expireddomains.net/" navigation to finish...
+    - navigated to "https://www.expireddomains.net/login/"
+    - waiting for navigation to finish...
+    - navigated to "https://www.expireddomains.net/emailauth/H8LVHkImItNpB5g9Yvf3g7BefMIEnz1o3h84YzLb/"
+
+20:06:10 | INFO    | scraper | 🔒 Browser closed
+20:07:32 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+20:07:32 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+20:07:32 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+20:07:32 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+20:07:32 | INFO    | scraper | ♻️  Legacy reuse: auth.json
+20:07:33 | INFO    | scraper | ✅ Browser started for vblookstrue
+20:07:33 | INFO    | scraper | 🕵️ Verifying session for vblookstrue...
+20:07:36 | INFO    | scraper | 🔑 Attempting auto-login for vblookstrue...
+20:08:07 | ERROR   | scraper | ❌ Login failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=\"username\"]")
+    - waiting for" https://member.expireddomains.net/article/introduction-to-the-member-area-15109.html" navigation to finish...
+    - navigated to "https://member.expireddomains.net/article/introduction-to-the-member-area-15109.html"
+
+20:08:07 | INFO    | scraper | 🔒 Browser closed
+20:10:56 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+20:10:56 | INFO    | proxy_manager | 📡 Checking proxy: # Example proxy format:
+20:10:56 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+20:10:56 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+20:10:56 | INFO    | scraper | ✅ Browser started for vblookstrue
+20:10:56 | INFO    | scraper | 🕵️ Verifying session for vblookstrue...
+20:10:59 | INFO    | scraper | 🔑 Attempting auto-login for vblookstrue...
+20:11:02 | ERROR   | scraper | ❌ Login failed: Page.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[name=\"username\"]")
+
+20:11:02 | INFO    | scraper | 🔒 Browser closed
+20:14:25 | INFO    | proxy_manager | 📡 Loaded 3 proxies from C:\Users\Alex\OneDrive\Рабочий стол\Agents\Scripts\domain_searcher\proxies.txt
+20:14:25 | INFO    | proxy_manager | 📡 Checking proxy: # http://ip:port
+20:14:25 | INFO    | proxy_manager | 📡 Checking proxy: # http://username:password@ip:port
+20:14:25 | WARNING | proxy_manager | ❌ No healthy proxies found after 1 attempts
+20:14:25 | INFO    | scraper | ✅ Browser started for VitoSearch
+20:14:25 | INFO    | scraper | 🕵️ Verifying session for VitoSearch...
+20:14:27 | INFO    | scraper | 🔑 Attempting auto-login for VitoSearch...
+20:14:58 | ERROR   | scraper | ❌ Login failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=\"username\"]")
+    - waiting for" https://member.expireddomains.net/" navigation to finish...
+    - navigated to "https://www.expireddomains.net/login/"
+    - waiting for" https://member.expireddomains.net/article/introduction-to-the-member-area-15109.html" navigation to finish...
+    - navigated to "https://member.expireddomains.net/article/introduction-to-the-member-area-15109.html"
+
+20:14:58 | INFO    | scraper | 🔒 Browser closed
+15:33:37 | INFO    | main | 📦 Initializing database...
+15:33:37 | INFO    | main | ✅ Database initialized.
+15:33:37 | INFO    | main | 🔧 Lifespan: Current loop type: _WindowsSelectorEventLoop
+15:33:37 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.
+12:23:14 | INFO    | main | 📦 Initializing database...
+12:23:14 | INFO    | main | ✅ Database initialized.
+12:23:14 | INFO    | main | 🔧 Lifespan: Current loop type: _WindowsSelectorEventLoop
+12:23:14 | INFO    | main | 🔧 Lifespan: WindowsProactorEventLoopPolicy enforced.

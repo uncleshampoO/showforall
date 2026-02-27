@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Searcher — Enterprise Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #05070a;
+            --bg-glass: rgba(17, 24, 39, 0.7);
+            --accent: #10b981;
+            --accent-glow: rgba(16, 185, 129, 0.4);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --border: rgba(255, 255, 255, 0.1);
+            --font-main: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background: var(--bg-primary);
+            background-image:
+                radial-gradient(circle at 20% 20%, rgba(16, 185, 129, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 40%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+
+        .dashboard {
+            max-width: 1200px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 1.5rem;
+        }
+
+        /* --- Glass Cards --- */
+        .glass-card {
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* --- Components --- */
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 0%, #9ca3af 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .control-group {
+            margin-bottom: 1rem;
+        }
+
+        .control-group label {
+            display: block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem;
+            color: #fff;
+            font-family: var(--font-mono);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="number"]:focus {
+            border-color: var(--accent);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 0.85rem;
+            border-radius: 10px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #05070a;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 0 25px var(--accent-glow);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* --- Log View --- */
+        .log-container {
+            flex: 1;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            padding: 1rem;
+            overflow-y: auto;
+            max-height: 400px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .log-entry {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .log-time {
+            color: var(--text-secondary);
+            margin-right: 0.5rem;
+        }
+
+        .log-info {
+            color: #3b82f6;
+        }
+
+        .log-success {
+            color: var(--accent);
+        }
+
+        .log-error {
+            color: #ef4444;
+        }
+
+        /* --- Domain Grid --- */
+        .domain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .domain-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .domain-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--accent);
+            transform: scale(1.02);
+        }
+
+        .domain-card.available {
+            border-left: 4px solid var(--accent);
+        }
+
+        .domain-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: block;
+            word-break: break-all;
+        }
+
+        .domain-stats {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .stat-badge {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .stat-value {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* --- Progress --- */
+        .progress-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 100;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .progress-overlay.active {
+            display: flex;
+        }
+
+        .progress-modal {
+            width: 400px;
+            text-align: center;
+        }
+
+        .progress-ring {
+            width: 120px;
+            height: 120px;
+            border: 3px solid var(--border);
+            border-top: 3px solid var(--accent);
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* --- Toast --- */
+        #toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--accent);
+            color: #000;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-weight: 700;
+            transform: translateY(100px);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 1000;
+        }
+
+        #toast.visible {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dashboard">
+        <!-- Sidebar: Configuration & Real-time Logs -->
+        <aside class="sidebar">
+            <div class="glass-card header">
+                <h1>ANTIGRAVITY Alpha</h1>
+                <p>Domain Searcher v2.1 (The Farm)</p>
+            </div>
+
+            <div class="glass-card">
+                <div class="control-group">
+                    <label>ID Сотрудника</label>
+                    <input type="text" id="username" placeholder="Укажите ваш логин"
+                        style="width: 100%; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border); border-radius: 8px; padding: 0.75rem; color: #fff; font-family: var(--font-mono); outline: none; transition: border-color 0.2s; margin-bottom: 1rem;">
+                </div>
+                <div class="control-group">
+                    <label>Целевое количество</label>
+                    <input type="number" id="domainCount" value="10" min="1" max="100">
+                </div>
+                <button class="btn btn-primary" id="startBtn" onclick="startSearch()">
+                    <span>🚀 ЗАПУСТИТЬ ПОТОК</span>
+                </button>
+            </div>
+
+            <div class="glass-card" style="flex:1; display:flex; flex-direction:column;">
+                <div class="control-group">
+                    <label>Active Activity Log</label>
+                </div>
+                <div class="log-container" id="logStream">
+                    <div class="log-entry"><span class="log-time">System</span> <span class="log-success">Ready for
+                            search. Pipeline V2.1 + Proxy Auth active.</span></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content: Results Grid -->
+        <main class="main-content">
+            <div class="glass-card" style="display:flex; justify-content:space-between; align-items:center;">
+                <h2 style="font-size:1.1rem; font-weight:700;">АРХИВ НАЙДЕННЫХ ДОМЕНОВ</h2>
+                <button class="btn btn-secondary" style="width:auto; padding:0.5rem 1rem;" onclick="location.reload()">
+                    🔄 Обновить
+                </button>
+            </div>
+
+            <div class="domain-grid" id="domainGrid">
+                <!-- Domains will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Progress Modal -->
+    <div class="progress-overlay" id="progressOverlay">
+        <div class="progress-modal">
+            <div class="progress-ring"></div>
+            <h3 id="progressMsg" style="margin-bottom:0.5rem;">Инициализация...</h3>
+            <div
+                style="width:100%; height:4px; background:rgba(255,255,255,0.1); border-radius:2px; margin-bottom:1rem;">
+                <div id="progressFill"
+                    style="width:0%; height:100%; background:var(--accent); border-radius:2px; transition:width 0.3s;">
+                </div>
+            </div>
+            <button id="stopBtn" class="btn btn-secondary" onclick="stopSearch()">ОСТАНОВИТЬ</button>
+        </div>
+    </div>
+
+    <div id="toast">✅ Скопировано в буфер!</div>
+
+    <script>
+        let ws = null;
+
+        // Load history on start
+        window.addEventListener('DOMContentLoaded', () => {
+            fetchHistory();
+        });
+
+        async function fetchHistory() {
+            try {
+                const res = await fetch('/api/history');
+                const domains = await res.json();
+                renderDomains(domains);
+            } catch (err) {
+                console.error('Failed to fetch history', err);
+            }
+        }
+
+        function renderDomains(domains) {
+            const grid = document.getElementById('domainGrid');
+            grid.innerHTML = '';
+            domains.forEach(d => {
+                const card = document.createElement('div');
+                card.className = `domain-card ${d.status}`;
+                card.onclick = () => copyToClipboard(d.name);
+                card.innerHTML = `
+                    <span class="domain-name">${d.name}</span>
+                    <div class="domain-stats">
+                        <div class="stat-badge">BL: <span class="stat-value">${d.bl}</span></div>
+                        <div class="stat-badge">AGE: <span class="stat-value">${d.age_years}y</span></div>
+                        <div class="stat-badge" style="color:${d.status === 'available' ? 'var(--accent)' : 'inherit'}">${d.status.toUpperCase()}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function startSearch() {
+            const count = document.getElementById('domainCount').value;
+            const username = document.getElementById('username').value.trim();
+            const btn = document.getElementById('startBtn');
+            const overlay = document.getElementById('progressOverlay');
+
+            if (!username) {
+                addLog('Укажите ID сотрудника!', 'error');
+                return;
+            }
+
+            btn.disabled = true;
+            overlay.classList.add('active');
+
+            const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            ws = new WebSocket(`${protocol}//${location.host}/ws/search`);
+
+            ws.onopen = () => {
+                ws.send(JSON.stringify({
+                    target_count: parseInt(count),
+                    username: username
+                }));
+                addLog(`WebSocket connected. User: ${username}`, 'info');
+            };
+
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+
+                if (data.message) {
+                    addLog(data.message, data.type === 'error' ? 'error' : 'info');
+                    document.getElementById('progressMsg').textContent = data.message;
+                }
+
+                if (data.progress !== undefined) {
+                    document.getElementById('progressFill').style.width = data.progress + '%';
+                }
+
+                if (data.type === 'result' || data.type === 'candidate') {
+                    // Update grid live if it's a new result
+                    fetchHistory();
+                }
+
+                if (data.type === 'done') {
+                    addLog('Search session completed successfully.', 'success');
+                    document.getElementById('progressMsg').textContent = 'ГОТОВО ✅';
+                    document.getElementById('progressFill').style.width = '100%';
+                    document.getElementById('stopBtn').textContent = 'ЗАКРЫТЬ';
+                }
+
+                if (data.type === 'error') {
+                    addLog(data.message, 'error');
+                    document.getElementById('progressMsg').textContent = 'ОШИБКА ❌';
+                    document.getElementById('progressMsg').style.color = '#ef4444';
+                    document.getElementById('stopBtn').textContent = 'ЗАКРЫТЬ';
+                    // We don't closeOverlay() automatically so user can read the log
+                }
+            };
+
+            ws.onerror = (err) => {
+                addLog('Connection error encountered.', 'error');
+                closeOverlay();
+            };
+        }
+
+        function stopSearch() {
+            if (ws) ws.close();
+            closeOverlay();
+        }
+
+        function closeOverlay() {
+            document.getElementById('progressOverlay').classList.remove('active');
+            document.getElementById('startBtn').disabled = false;
+        }
+
+        function addLog(msg, type) {
+            const container = document.getElementById('logStream');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            entry.innerHTML = `<span class="log-time">${time}</span> <span class="log-${type}">${msg}</span>`;
+            container.appendChild(entry);
+        }
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.add('visible');
+                setTimeout(() => toast.classList.remove('visible'), 2000);
+            });
+        }
+    </script>
+</body>
+
+</html>

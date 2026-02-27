@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity Master Strategy | January 2026</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            /* My LinkTree Theme Variables */
+            --bg-primary: #FAFBFC;
+            --bg-surface: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #6B7280;
+            --text-muted: #9CA3AF;
+            --accent-primary: #2563EB;
+            --accent-hover: #1D4ED8;
+            --accent-light: #EFF6FF;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --danger: #EF4444;
+            --border: #E5E7EB;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        .meta-badge {
+            background: var(--accent-light);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin: 0 5px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-surface);
+            border-radius: 12px;
+            padding: 25px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: var(--accent-primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        h2 {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            border-left: 4px solid var(--accent-primary);
+            padding-left: 15px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        /* Metrics */
+        .metric-box {
+            text-align: center;
+            padding: 20px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .metric-val {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--accent-primary);
+        }
+
+        .metric-lbl {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .metric-sub {
+            font-size: 0.8rem;
+            color: var(--success);
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th {
+            text-align: left;
+            color: var(--text-secondary);
+            padding: 12px;
+            border-bottom: 2px solid var(--border);
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .score-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-family: 'JetBrains Mono';
+            font-size: 0.8rem;
+        }
+
+        .score-high {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+        }
+
+        .score-mid {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--warning);
+        }
+
+        /* Architecture Viz */
+        .arch-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .arch-box {
+            padding: 15px;
+            background: var(--bg-surface);
+            border: 1px solid var(--accent-primary);
+            border-radius: 8px;
+            text-align: center;
+            width: 180px;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .arch-box::after {
+            content: "→";
+            position: absolute;
+            right: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1.5rem;
+        }
+
+        .arch-box:last-child::after {
+            display: none;
+        }
+
+        /* Timeline */
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 20px;
+            border-left: 2px solid var(--border);
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: -6px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background: var(--accent-primary);
+            border-radius: 50%;
+        }
+
+        .timeline-date {
+            font-family: 'JetBrains Mono';
+            color: var(--accent-primary);
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        /* Stack Tags */
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            background: var(--accent-light);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 2px;
+            color: var(--accent-primary);
+            font-weight: 500;
+        }
+
+        /* Typography */
+        p,
+        li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .highlight {
+            color: var(--accent-primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+
+            .grid-2,
+            .grid-3,
+            .grid-4 {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> <!-- HEADER -->
+        <header>
+            <h1>ANTIGRAVITY: MASTER STRATEGY</h1>
+            <div style="margin-top: 15px;"> <span class="meta-badge">CONFIDENTIAL</span> <span class="meta-badge">JAN
+                    2026</span> <span class="meta-badge">AUTHOR: GEMINI</span> </div>
+            <p style="max-width: 800px; margin: 20px auto; color: var(--text-secondary);"> <strong>Исполнительное
+                    Саммари:</strong> Трансформация из хаотичного кодинга в "Фабрику Продуктов". За 37.5 часов мы
+                совершили 24 деплоя, преодолели 30% простоя из-за лимитов и вышли на уровень <strong>Strong Middle+ AI
+                    Product
+                    Architect</strong>. </p>
+        </header> <!-- PART 1: METRICS -->
+        <div class="card">
+            <h2>📊 Часть 1: Глубокая Статистика (Январь 2026)</h2>
+            <div class="grid-4">
+                <div class="metric-box">
+                    <div class="metric-val">37.5h</div>
+                    <div class="metric-lbl">Logged Time</div>
+                    <div class="metric-sub">~5.5 Work Days</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-val">24</div>
+                    <div class="metric-lbl">Live Ships</div>
+                    <div class="metric-sub">Cycle: 35min</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-val">111</div>
+                    <div class="metric-lbl">Tasks Done</div>
+                    <div class="metric-sub">Avg 0.3h / Task</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-val">60/40</div>
+                    <div class="metric-lbl">Code / Ops</div>
+                    <div class="metric-sub">Healthy Ratio</div>
+                </div>
+            </div>
+            <div class="grid-2" style="margin-top: 30px;">
+                <div>
+                    <h3>🔥 Friction Heatmap (Потери времени)</h3> <canvas id="frictionChart"
+                        style="max-height: 250px;"></canvas>
+                    <ul style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 10px;">
+                        <li><strong>429 Errors:</strong> Лимиты браузерного агента.</li>
+                        <li><strong>Auth:</strong> Проблемы ключей Git/Supabase.</li>
+                        <li><strong>Schema:</strong> Ошибка UUID vs Text в БД.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🛠 "Lethal Stack" (Арсенал)</h3>
+                    <div style="margin-bottom: 15px;"> <span class="tag">Vite + React</span> <span class="tag">Supabase
+                            Edge</span> <span class="tag">PostgreSQL</span> <span class="tag">Gemini 2.5</span> <span
+                            class="tag">GitHub CLI</span> <span class="tag">Vercel</span> </div>
+                    <p style="font-size: 0.9rem;"> <strong>Эволюция:</strong> Отказ от тяжелых решений в пользу Edge
+                        Functions. Нет холодных стартов, нативный TypeScript, минимальная задержка. </p>
+                </div>
+            </div>
+        </div> <!-- PART 2: COMPETENCY -->
+        <div class="grid-2">
+            <div class="card">
+                <h2>🧬 Radar Компетенций</h2>
+                <div style="display: flex; justify-content: center;"> <canvas id="competencyChart"
+                        style="max-height: 400px;"></canvas> </div>
+                <div style="text-align: center; margin-top: 15px;">
+                    <div class="metric-val" style="font-size: 1.5rem;">STRONG MIDDLE+</div>
+                    <div class="metric-lbl">AI Product Architect</div>
+                </div>
+            </div>
+            <div class="card" style="max-height: 600px; overflow-y: auto;">
+                <h2>📋 Детальная Оценка (15 Критериев)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Критерий</th>
+                            <th>Оценка</th>
+                            <th>Обоснование</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Prompt Precision</td>
+                            <td class="score-high">9/10</td>
+                            <td>Точные директивы, Senior level.</td>
+                        </tr>
+                        <tr>
+                            <td>Context Mgmt</td>
+                            <td class="score-high">8/10</td>
+                            <td>Ручное управление контекстом.</td>
+                        </tr>
+                        <tr>
+                            <td>Architecture</td>
+                            <td class="score-mid">7/10</td>
+                            <td>Видение системы есть, реализация - агент.</td>
+                        </tr>
+                        <tr>
+                            <td>Tools</td>
+                            <td class="score-high">9/10</td>
+                            <td>Свободное владение CLI, Git.</td>
+                        </tr>
+                        <tr>
+                            <td>Debugging</td>
+                            <td class="score-high">8/10</td>
+                            <td>Анализ логов вместо паники.</td>
+                        </tr>
+                        <tr>
+                            <td>Velocity</td>
+                            <td class="score-high">10/10</td>
+                            <td>7 деплоев за 3 дня. God Mode.</td>
+                        </tr>
+                        <tr>
+                            <td>Autonomy</td>
+                            <td class="score-high">8/10</td>
+                            <td>Сам формируешь бэклог.</td>
+                        </tr>
+                        <tr>
+                            <td>Code Hygiene</td>
+                            <td class="score-mid">6/10</td>
+                            <td>Остаются "зомби-файлы".</td>
+                        </tr>
+                        <tr>
+                            <td>Documentation</td>
+                            <td class="score-high">9/10</td>
+                            <td>Дисциплина task.md топ.</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td class="score-high">8/10</td>
+                            <td>Ключи только в Edge Functions.</td>
+                        </tr>
+                        <tr>
+                            <td>Product Sense</td>
+                            <td class="score-high">10/10</td>
+                            <td>Воронка > Код.</td>
+                        </tr>
+                        <tr>
+                            <td>Git Ops</td>
+                            <td class="score-mid">7/10</td>
+                            <td>Переход на CLI.</td>
+                        </tr>
+                        <tr>
+                            <td>Cost Opt</td>
+                            <td class="score-high">8/10</td>
+                            <td>Gemini Flash + Edge = Экономия.</td>
+                        </tr>
+                        <tr>
+                            <td>System Think</td>
+                            <td class="score-high">8/10</td>
+                            <td>Связка Task History -> CV.</td>
+                        </tr>
+                        <tr>
+                            <td>Focus</td>
+                            <td class="score-high">9/10</td>
+                            <td>5.5ч фокуса.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> <!-- PART 3: AGENT ARCHITECTURE -->
+        <div class="card">
+            <h2>🤖 Часть 3: Агент "Token Optimizer"</h2>
+            <p>Новая архитектура для экономии токенов и улучшения точности.</p>
+            <div class="arch-flow">
+                <div class="arch-box"> <strong>🛑 Interceptor</strong> <br><span style="font-size: 0.8rem;">Ловит
+                        запрос<br>Проверяет Scope</span> </div>
+                <div class="arch-box"> <strong>💉 Context Injector</strong> <br><span
+                        style="font-size: 0.8rem;">Фильтрует файлы<br>(RAG Logic)</span> </div>
+                <div class="arch-box"> <strong>✨ Prompt Refiner</strong> <br><span
+                        style="font-size: 0.8rem;">Переписывает в<br>LLM-Speak</span> </div>
+                <div class="arch-box" style="border-color: var(--success); background: rgba(16, 185, 129, 0.05);">
+                    <strong>🚀 Execution</strong> <br><span style="font-size: 0.8rem; color: var(--success);">Запуск
+                        задачи<br>с 1 попытки</span>
+                </div>
+            </div>
+        </div> <!-- PART 4: MONETIZATION -->
+        <div class="card" style="border-color: var(--warning);">
+            <h2 style="color: var(--warning); border-color: var(--warning); border-left: none; padding-left: 0;">💸
+                Часть 4: Протокол "Пылесос" (Vacuum)</h2>
+            <p><strong>Суть:</strong> Создаем "Электросамокаты" (Micro-SaaS) против "Ferrari" (Enterprise). Цена
+                <strong>79₽/мес</strong>.
+            </p>
+            <div class="grid-3" style="margin-top: 30px;">
+                <div class="metric-box" style="background: #FFFBEB; text-align: left; border-color: #FCD34D;">
+                    <h3 style="margin: 0 0 10px 0; color: #B45309;">🦈 Vibo Team</h3>
+                    <p class="metric-sub" style="color: #B45309;">Карманная CRM</p>
+                    <ul>
+                        <li>Без настройки</li>
+                        <li>Логин -> 4 Этапа -> $$</li>
+                        <li>Статус: <strong>95% Ready</strong></li>
+                    </ul>
+                </div>
+                <div class="metric-box" style="background: #FFFBEB; text-align: left; border-color: #FCD34D;">
+                    <h3 style="margin: 0 0 10px 0; color: #B45309;">📄 Vibo Docs</h3>
+                    <p class="metric-sub" style="color: #B45309;">1-Click Documents</p>
+                    <ul>
+                        <li>КП и Счета в чате</li>
+                        <li>Генератор PDF</li>
+                        <li>Status: <strong>In Plan</strong></li>
+                    </ul>
+                </div>
+                <div class="metric-box" style="background: #FFFBEB; text-align: left; border-color: #FCD34D;">
+                    <h3 style="margin: 0 0 10px 0; color: #B45309;">🌳 Vibo Staff</h3>
+                    <p class="metric-sub" style="color: #B45309;">AI HR Assistant</p>
+                    <ul>
+                        <li>Авто-скрининг резюме</li>
+                        <li>Топ-3 кандидата</li>
+                        <li>Status: <strong>In Plan</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- PART 5: HACKS & ROADMAP -->
+        <div class="grid-2">
+            <div class="card">
+                <h2>⚡ Нестандартные Хаки</h2>
+                <div class="timeline-item">
+                    <div class="timeline-date">HACK #1</div> <strong>Vibecoding as Service:</strong> Продавай не код, а
+                    видео-запись процесса создания. Подтверждение экспертности "на лету".
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">HACK #2</div> <strong>Anti-SaaS License:</strong> Продай исходный код
+                    Vibo Shark за 5000₽ (One-time). 100% Margin, 0 Support.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">HACK #3</div> <strong>Graveyard Mining:</strong> Преврати "мертвые" идеи
+                    в Open Source библиотеки для репутации.
+                </div>
+            </div>
+            <div class="card">
+                <h2>🔮 Roadmap: Путь к 79₽</h2>
+                <div class="timeline-item">
+                    <div class="timeline-date">NOW</div> <strong>Fix Vibo Shark DB:</strong> Разблокировать главный
+                    продукт (UUID fix).
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">TOMORROW</div> <strong>Arcade Demo:</strong> Записать 30 сек демо для
+                    маркетинга.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">DAY 3</div> <strong>Vibo Docs Clone:</strong> Сделать продукт №2 на базе
+                    движка Shark.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">DAY 4</div> <strong>Landing Page:</strong> Единая страница для бандла за
+                    79₽.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">NEXT WEEK</div> <strong>Launch:</strong> VC.ru + ProductRadar. Начало
+                    "Пылесоса".
+                </div>
+            </div>
+        </div>
+    </div>
+    <script> // Competency Radar Chart const ctxRadar = document.getElementById('competencyChart').getContext('2d'); new Chart(ctxRadar, { type: 'radar', data: { labels: ['Precision', 'Context', 'Arch', 'Tools', 'Debug', 'Velocity', 'Autonomy', 'Hygiene', 'Docs', 'Security', 'Product', 'Git', 'Cost', 'System', 'Focus'], datasets: [{ label: 'Score', data: [9, 8, 7, 9, 8, 10, 8, 6, 9, 8, 10, 7, 8, 8, 9], backgroundColor: 'rgba(37, 99, 235, 0.2)', // Blue Accent borderColor: '#2563EB', pointBackgroundColor: '#2563EB', borderWidth: 2 }] }, options: { scales: { r: { angleLines: { color: '#E5E7EB' }, grid: { color: '#E5E7EB' }, pointLabels: { color: '#6B7280', font: { size: 11, family: "'Inter', sans-serif" } }, ticks: { display: false, max: 10 } } }, plugins: { legend: { display: false } } } }); // Friction Doughnut Chart const ctxDonut = document.getElementById('frictionChart').getContext('2d'); new Chart(ctxDonut, { type: 'doughnut', data: { labels: ['429 Limits', 'Auth Issues', 'Schema Blockers', 'Context Loss'], datasets: [{ data: [30, 25, 15, 10], backgroundColor: ['#EF4444', '#F59E0B', '#2563EB', '#9CA3AF'], borderWidth: 0 }] }, options: { plugins: { legend: { position: 'right', labels: { color: '#1A1A2E', font: { family: "'Inter', sans-serif" } } } } } }); </script>
+</body>
+
+</html>

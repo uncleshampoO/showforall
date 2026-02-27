@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Vitaliy Bondarev</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #ffffff;
+            color: #2c3e50;
+            line-height: 1.6;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #1e40af;
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #3b82f6;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .contacts span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: #1e40af;
+            font-size: 20px;
+            font-weight: 600;
+            border-left: 4px solid #2563eb;
+            padding-left: 12px;
+            margin-bottom: 15px;
+        }
+
+        .about {
+            background: #f8fafc;
+            border-left: 3px solid #3b82f6;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
+
+        .about strong {
+            color: #1e40af;
+        }
+
+        .subsection {
+            margin-top: 15px;
+        }
+
+        .subsection-title {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .job:last-child {
+            border-bottom: none;
+        }
+
+        .job-header {
+            margin-bottom: 10px;
+        }
+
+        .company {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e40af;
+        }
+
+        .role {
+            font-size: 16px;
+            color: #3b82f6;
+            margin-top: 4px;
+        }
+
+        .period {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 2px;
+        }
+
+        .description {
+            color: #475569;
+            margin-top: 8px;
+            font-size: 15px;
+        }
+
+        .achievements {
+            list-style: none;
+            margin-top: 12px;
+        }
+
+        .achievements li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            color: #334155;
+        }
+
+        .achievements li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .category-title {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        .skill-tag.highlight {
+            background: #2563eb;
+            color: white;
+            font-weight: 500;
+        }
+
+        .achievements-summary {
+            background: #eff6ff;
+            border-left: 3px solid #2563eb;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        .achievements-summary ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .achievements-summary li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            color: #1e40af;
+        }
+
+        .achievements-summary li:before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Vitaliy Bondarev</h1>
+        <div class="subtitle">AI Product Engineer / Internal AI Consultant</div>
+        <div class="contacts">
+            <span>📍 Moscow / Tbilisi</span>
+            <span>✉️ v9253696275@gmail.com</span>
+            <span>📱 @bondarev_vi</span>
+            <span>🔗 linkedin.com/in/bondarev-vi</span>
+        </div>
+    </div>
+
+    <div class="about">
+        Product Manager with hands-on AI/LLM experience and a 7-year B2B background. I combine deep commercial
+        understanding (knowing what customers are willing to pay for) with technical skills for rapid AI MVP
+        development.
+
+        <div class="subsection">
+            <div class="subsection-title">Technical Experience:</div>
+            <ul class="achievements">
+                <li>Independently designed and launched a B2B SaaS on Google Gemini API (from architecture to first
+                    pre-orders)</li>
+                <li>Proficient in LLM API integration, System Prompts Design, RAG Concepts, Google Sheets as Backend
+                </li>
+                <li>Currently deepening expertise in Python and production-grade AI development</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">Product Expertise:</div>
+            Former Junior Product Owner in fintech. 7 years in B2B — expert in CustDev, requirement gathering, and unit
+            economics. Skilled at translating business pain points into technical solutions.
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">Seeking:</div>
+            AI Product Manager / AI Solutions Architect role in a product team where I can apply commercial experience
+            to solve complex architectural challenges (Big Data, RAG, production AI).
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">Vibo (Startup)</div>
+                <div class="role">AI Product Engineer & Internal AI Consultant</div>
+                <div class="period">October 2025 — Present</div>
+            </div>
+            <div class="description">Four public projects at the intersection of AI and sales automation.</div>
+            <ul class="achievements">
+                <li><strong>Vibo Team:</strong> Interface-less CRM with AI agent under the hood, auto-tasks and
+                    conversion tips</li>
+                <li><strong>AI Resume:</strong> Interactive CV with IDE task sync and AI HR Assistant for vacancy
+                    matching</li>
+                <li><strong>Agents Framework:</strong> Production-ready AI agents for business automation (Filesystem
+                    Hygiene, Vibecode Analyst, Proposal Generator)</li>
+                <li><strong>Gemini Starter Pack:</strong> Multi-agent framework with pre-configured environment,
+                    training, and 10-Phase agent creation methodology</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">Self-Employed, Tbilisi</div>
+                <div class="role">Founder & Managing Director</div>
+                <div class="period">December 2022 — March 2025</div>
+            </div>
+            <div class="description">Personal business project: fundraising, brand development, and operational
+                management.</div>
+            <ul class="achievements">
+                <li>Raised investment and launched a bar, developing concept, brand, and operational processes</li>
+                <li>Managed team of 6 employees, implemented service standards and motivation systems</li>
+                <li>Maintained sustainable business operations for 2.5 years without additional investments</li>
+                <li>Closed project debt-free, fulfilling all financial obligations</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">COLLIDER, Moscow</div>
+                <div class="role">Head of Development</div>
+                <div class="period">September 2019 — July 2021</div>
+            </div>
+            <div class="description">Operational management and B2B sales development for workspace residency and
+                rental.</div>
+            <ul class="achievements">
+                <li>Led operational activities and team management</li>
+                <li>Developed B2B sales direction for residency and workspace rental (≥90% occupancy)</li>
+                <li>Organized 20+ events, generating additional revenue over 1 million rubles</li>
+                <li>Utilized <strong>Zoho</strong> accounting system for process analysis and optimization</li>
+                <li>Maintained profitability during pandemic by renting space to production companies for commercial
+                    shoots</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">CYBERX, Moscow</div>
+                <div class="role">Senior Sales Manager</div>
+                <div class="period">December 2018 — August 2019</div>
+            </div>
+            <div class="description">Built sales system from scratch in a technology company.</div>
+            <ul class="achievements">
+                <li>Established sales system from ground zero, increasing conversion rate from 5% to 15%</li>
+                <li>Configured and adapted <strong>AmoCRM</strong>, automating lead processing and sales funnel</li>
+                <li>Attracted key clients, ensuring initial company revenue growth</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">Relief Center, Moscow</div>
+                <div class="role">Wholesale Development Manager</div>
+                <div class="period">January 2018 — September 2018</div>
+            </div>
+            <div class="description">Wholesale sales development in office supplies segment, Central Moscow.</div>
+            <ul class="achievements">
+                <li>Developed wholesale sales in office supplies segment (Central Moscow)</li>
+                <li>Attracted clients through cold sales and exhibition participation</li>
+                <li>Negotiated partnership contracts with key distributors</li>
+                <li>Increased sales volume by 23% and expanded product presence</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="company">LifePay, Moscow</div>
+                <div class="role">Corporate Sales Development Expert</div>
+                <div class="period">September 2014 — August 2017</div>
+            </div>
+            <div class="description">Fintech company. Career path: support specialist → sales manager → head of
+                department → <strong>Junior Product Owner</strong> → corporate sales development expert.</div>
+            <ul class="achievements">
+                <li>Grew from support to head of department in 1.5 years</li>
+                <li>Built and trained sales team from scratch</li>
+                <li>Consistently exceeded sales targets (>1 million rubles/month)</li>
+                <li>Implemented communication standards and sales scripts</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Key Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="category-title">Business & Management</div>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">Product Management</span>
+                    <span class="skill-tag highlight">CustDev</span>
+                    <span class="skill-tag highlight">UX Research</span>
+                    <span class="skill-tag highlight">Roadmap</span>
+                    <span class="skill-tag highlight">Scrum</span>
+                    <span class="skill-tag">B2B Sales</span>
+                    <span class="skill-tag">Sales Management</span>
+                    <span class="skill-tag">Team Leadership</span>
+                    <span class="skill-tag">Process Automation</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-title">AI & Development</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Google Gemini API</span>
+                    <span class="skill-tag">LLM Architecture</span>
+                    <span class="skill-tag">Prompt Engineering</span>
+                    <span class="skill-tag">RAG Concepts</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Supabase</span>
+                    <span class="skill-tag">REST API</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-title">CRM & Tools</div>
+                <div class="skill-tags">
+                    <span class="skill-tag highlight">AmoCRM</span>
+                    <span class="skill-tag highlight">Zoho</span>
+                    <span class="skill-tag">Git / GitHub</span>
+                    <span class="skill-tag">Vercel CI/CD</span>
+                    <span class="skill-tag">Telegram Mini Apps</span>
+                    <span class="skill-tag">Postman</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Key Achievements</h2>
+        <div class="achievements-summary">
+            <ul>
+                <li>Built sales systems from scratch in 3 companies (conversion up to 15%)</li>
+                <li>Managed teams up to 6 people, trained sales managers</li>
+                <li>Launched 4 AI products in production (Vibo Team, AI Resume, Agents Framework, Gemini Starter Pack)
+                </li>
+                <li>3 years fintech experience with promotion to Junior Product Owner</li>
+                <li>Sales automation experience through CRM (AmoCRM, Zoho)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
